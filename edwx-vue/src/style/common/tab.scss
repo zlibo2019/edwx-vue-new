@@ -1,0 +1,22 @@
+.vux-tab-wrap {
+  padding-top: 0.44rem !important;
+  height: 0.44rem;
+
+  .vux-tab-container {
+    height: 0.44rem !important;
+
+    .vux-tab {
+      line-height: 0.44rem;
+      height: 0.44rem;
+
+      .vux-tab-item {
+        font-size: 0.14rem;
+        line-height: 0.44rem;
+      }
+
+      .vux-tab-ink-bar {
+        height: 0.02rem !important;
+      }
+    }
+  }
+}

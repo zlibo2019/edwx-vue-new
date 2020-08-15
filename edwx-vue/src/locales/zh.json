@@ -1,0 +1,23 @@
+{
+  "http": {
+    "error": "请求服务异常",
+    "loading": "数据加载中",
+    "failed": "操作失败",
+    "success": "操作成功"
+  },
+  "doorOpen": {
+    "failed": "开门失败",
+    "success": "开门成功"
+  },
+  "location": {
+    "failed": "位置获取失败",
+    "success": "位置获取成功"
+  },
+  "attence": {
+    "submit": "外勤提交成功",
+    "norepeat": "当前记录已提交，请勿重复提交",
+    "severerr": "服务器异常,即将返回",
+    "threedk": "每日最多打三次上班卡",
+    "dontdk": "当前不在打卡范围内"
+  }
+}

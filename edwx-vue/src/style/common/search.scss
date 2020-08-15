@@ -1,0 +1,39 @@
+.weui-search-bar__label {
+  line-height: 0.22rem !important;
+
+  .weui-icon-search {
+    font-size: 0.14rem;
+  }
+
+  span {
+    font-size: 0.14rem !important;
+  }
+}
+
+.weui-search-bar__box {
+
+  .weui-icon-search {
+    left: 0.05rem !important;
+    font-size: 0.14rem !important;
+    line-height: 0.28rem !important;
+  }
+
+  .weui-search-bar__input {
+    padding: 0.04rem 0 0.04rem 0.05rem !important;
+    border: 0;
+    font-size: 0.14rem !important;
+    line-height: 0.28rem !important;
+  }
+
+  .weui-icon-clear {
+    font-size: 0.14rem;
+    padding: 0 0.1rem !important;
+    line-height: 0.28rem !important;
+  }
+}
+
+.weui-search-bar__cancel-btn {
+  margin-left: 0.1rem !important;
+  line-height: 0.28rem !important;
+}
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>智慧企业平台</title>
+  <!--<link href="https://cdn.bootcss.com/animate.css/3.7.0/animate.min.css" rel="stylesheet">-->
+  <link href="https://unpkg.com/animate.css@3.7.0/animate.css" rel="stylesheet">
+  <link href="https://at.alicdn.com/t/font_1356651_snqpurmy32.css" rel="stylesheet">
+</head>
+
+<body>
+<div id="app-box"></div>
+<!--<script src="https://cdn.bootcss.com/vue/2.5.20/vue.min.js"></script>-->
+<!--<script src="https://cdn.bootcss.com/vue-router/3.0.1/vue-router.min.js"></script>-->
+<!--<script src="https://cdn.bootcss.com/axios/0.18.0/axios.min.js"></script>-->
+<!--<script src="https://cdn.bootcss.com/vuex/3.0.1/vuex.min.js"></script>-->
+<!--<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>-->
+<!--<script src="https://cdn.bootcss.com/exif-js/2.3.0/exif.min.js"></script>-->
+<!--<script src="https://cdn.bootcss.com/vue-i18n/8.7.0/vue-i18n.min.js"></script>-->
+<!--<script src="https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js"></script>-->
+<!--<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>-->
+<!--<script src="https://cdn.bootcss.com/vConsole/3.2.2/vconsole.min.js"></script>-->
+<script src="./static/config.js"></script>
+
+<script src="https://unpkg.com/vue@2.5.17/dist/vue.min.js"></script>
+<script src="https://unpkg.com/vue-router@3.0.1/dist/vue-router.js"></script>
+<script src="https://unpkg.com/axios@0.18.0/dist/axios.min.js"></script>
+<script src="https://unpkg.com/vuex@3.0.1/dist/vuex.min.js"></script>
+<script src="https://unpkg.com/jquery@3.3.1/dist/jquery.min.js"></script>
+<script src="https://unpkg.com/exif-js@2.3.0/exif.js"></script>
+<script src="https://unpkg.com/vue-i18n@8.7.0/dist/vue-i18n.min.js"></script>
+<script src="https://unpkg.com/fastclick@1.0.6/lib/fastclick.js"></script>
+<script src="https://unpkg.com/moment@2.23.0/moment.js"></script>
+<script src="https://unpkg.com/html2canvas@1.0.0-alpha.12/dist/html2canvas.min.js"></script>
+<script src="https://at.alicdn.com/t/font_1356651_snqpurmy32.js"></script>
+<!--<script src="https://unpkg.com/vconsole@3.3.0/dist/vconsole.min.js"></script>-->
+
+<script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=00be77EvPLOLYs4xgSL0yiCb36bbjuvA"></script>
+<script type="text/javascript"
+        src="https://api.map.baidu.com/getscript?v=2.0&ak=00be77EvPLOLYs4xgSL0yiCb36bbjuvA&services=&t=20181029172410"></script>
+<!--<script src="./static/canvas2image.js"></script>-->
+<script>
+  var deviceWidth = document.documentElement.clientWidth;
+  if (deviceWidth > 640) {
+    deviceWidth = 640;
+  } else if (deviceWidth < 320) {
+    deviceWidth = 320;
+  }
+  document.documentElement.style.fontSize = deviceWidth / 3.75 + 'px';
+</script>
+</body>
+
+</html>

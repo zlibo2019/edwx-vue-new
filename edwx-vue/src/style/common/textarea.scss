@@ -1,0 +1,13 @@
+.weui-cells {
+  .vux-x-textarea {
+    padding: 8px 15px;
+    font-size: 0.15rem !important;
+
+    textarea:disabled {
+      background-color: #ffffff;
+      color: #888;
+    }
+  }
+}
+
+

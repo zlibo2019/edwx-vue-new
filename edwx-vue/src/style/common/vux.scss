@@ -1,0 +1,9 @@
+.vux-number-selector,
+.vux-number-input {
+  /*vux的dialog弹窗样式需要冲掉，否则弹窗变形*/
+  height: 0.3rem !important;
+}
+
+.vux-1px-t:before {
+  border-top: 1px solid #D9D9D9 !important;
+}

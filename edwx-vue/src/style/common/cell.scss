@@ -1,0 +1,52 @@
+.weui-cells {
+  font-size: 0.15rem !important;
+
+  .weui-cell {
+    height: auto;
+    min-height: 0.5rem;
+    padding: 2px 15px;
+
+    &:before {
+      left: 0 !important;
+    }
+
+    > div {
+      p {
+        color: #999 !important;
+      }
+    }
+
+    .weui-cell__hd {
+      .weui-label {
+        color: #999 !important;
+      }
+    }
+
+    .weui-cell__bd {
+      .weui-label {
+        color: #999 !important;
+      }
+    }
+
+    .vux-cell-primary {
+      font-size: 0.15rem !important;
+
+      .vux-cell-value {
+        color: #333 !important;
+      }
+    }
+
+    .weui-cell__primary {
+      input {
+        font-size: 0.15rem !important;
+      }
+    }
+  }
+
+  .vux-cell-box {
+    &:before {
+      left: 0 !important;
+    }
+  }
+}
+

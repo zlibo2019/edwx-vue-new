@@ -1,0 +1,55 @@
+.vux-timeline {
+  padding: 0.1rem !important;
+
+  .vux-timeline-item {
+    .vux-timeline-item-head {
+      left: 0.9rem;
+      width: 10px;
+      height: 10px;
+
+      &::after {
+        position: absolute;
+        content: "";
+        z-index: 100;
+        border-radius: 50% !important;
+        width: 6px;
+        height: 6px;
+        top: 0.021rem;
+        left: 0.02rem;
+        background-color: #ffffff;
+      }
+    }
+
+    .vux-timeline-item-head-first {
+      left: 0.9rem;
+      width: 10px;
+      height: 10px;
+      border-radius: 50% !important;
+
+      &::after {
+        position: absolute;
+        content: "";
+        z-index: 100;
+        border-radius: 50% !important;
+        width: 6px;
+        height: 6px;
+        top: 0.03rem;
+        left: 0.02rem;
+        background-color: #ffffff;
+      }
+
+      i {
+        display: none;
+      }
+    }
+
+    .vux-timeline-item-tail {
+      left: 0.94rem;
+      background-color: #eeeeee;
+    }
+
+    .vux-timeline-item-content {
+      padding: 0 0 0 0;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.weui-msg {
+  padding-top: 0.36rem !important;
+
+  .weui-msg__icon-area {
+    margin-bottom: 0.3rem;
+  }
+
+  .weui-msg__text-area {
+    margin-bottom: 0.25rem;
+    padding: 0 0.2rem;
+
+    .weui-msg__title {
+      margin-bottom: 0.05rem;
+      font-weight: 400;
+      font-size: 0.2rem;
+    }
+
+    .weui-msg__desc {
+      font-size: 0.14rem;
+      color: #999999;
+    }
+  }
+}

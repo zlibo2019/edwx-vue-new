@@ -1,0 +1,79 @@
+.weui-dialog {
+  max-width: 80% !important;
+
+  .weui-dialog__hd {
+    /*vux的dialog弹窗样式需要冲掉，否则弹窗变形*/
+    padding: 0.05rem 0.1rem !important;
+    height: 0.6rem;
+
+    strong {
+      /*vux的dialog弹窗样式需要冲掉，否则弹窗变形*/
+      display: block;
+      margin: 0 auto;
+      line-height: 0.5rem;
+      font-size: 0.18rem;
+    }
+  }
+
+  .weui-dialog__bd {
+    padding: 0 0.16rem !important;
+    font-size: 0.15rem !important;
+    textarea{
+      width:100%;
+      height:auto;
+      min-height:1rem;
+      resize: none;
+      margin-bottom: 0.1rem;
+      font-size:0.12rem;
+      line-height: 0.18rem;
+      padding:0.02rem;
+    }
+    .weui-cells{
+      margin-top: 0;
+      &:after{
+        border-bottom: none;
+      }
+      .weui-cell{
+        padding:0.05rem 0.5rem 0.05rem 0;
+        &.selected{
+          .weui-cell__hd{
+            i{
+              display: block;
+            }
+          }
+        }
+        .weui-cell__hd{
+          width:0.5rem;
+          height:100%;
+          position: absolute;
+          right:0;
+          top:0;
+          i{
+            font-size: 0.3rem;
+            position: absolute;
+            right:0;
+            top:0;
+            bottom:0;
+            margin:auto;
+            padding:0.1rem 0;
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  .weui-dialog__ft {
+    font-size: 0.18rem;
+    line-height: 0.48rem;
+  }
+  .vux-prompt {
+    padding-bottom: 0.3rem;
+    input{
+      width:80%;
+      height:0.45rem;
+      display: block;
+      margin:0 auto;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.weui-toast {
+  //top: 1.8rem !important;
+  min-width: 1.21rem !important;
+  max-width: 2.21rem !important;
+  //height: 1.21rem !important;
+  min-height: 1.21rem !important;
+  font-size: 0;
+
+  .weui-icon_toast.weui-loading {
+    margin: 0.3rem 0 0.1rem !important;
+    width: 0.38rem;
+    height: 0.38rem;
+  }
+
+  .weui-toast__content {
+    font-size: 0.16rem;
+    margin: 0 0 0.15rem;
+  }
+
+  &.weui-toast_text {
+    min-height: 0 !important;
+  }
+}
